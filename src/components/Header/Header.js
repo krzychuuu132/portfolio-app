@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Navigation from "../Navigation/Navigation";
+import Logo from '../Logo/Logo';
 import './Header.scss';
 
 const Header = () => {
@@ -18,7 +19,8 @@ const Header = () => {
     return ( 
 
         <header className="header">
-                <Navigation navigationList={navigationList}></Navigation>
+                <Logo />
+                <Navigation navigationList={navigationList} ></Navigation>
         </header>
 
     );

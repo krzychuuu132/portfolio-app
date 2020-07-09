@@ -1,0 +1,14 @@
+
+
+.header{
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #525252;
+    height: 60px;
+
+    @media (min-width:1024px) {
+        padding: 0px 100px;
+    }
+}

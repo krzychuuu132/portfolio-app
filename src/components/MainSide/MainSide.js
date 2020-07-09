@@ -1,6 +1,8 @@
 import React from 'react';
 
-import Header from "../Header/Header";
+import Header from '../Header/Header';
+import MainPicture from '../MainPicture/MainPicture';
+import './MainSide.scss';
 
 const MainSide = () => {
     return ( 
@@ -8,8 +10,8 @@ const MainSide = () => {
         <div className="container">
 
             <Header></Header>
+            <MainPicture />
           
-
         </div>
 
        );

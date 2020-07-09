@@ -1,0 +1,48 @@
+
+
+.article{
+    height: calc(100vh - 60px);
+    background-color: #020302;
+    position: relative;
+    overflow: hidden;
+    
+
+    &__video{
+       // display: block;
+        
+        height: 100%;
+       // margin: 0 auto;
+        filter: brightness(0.3);
+    }
+
+    &__content{
+        position: absolute;
+        top: 43%;
+        left: 7%;
+        z-index: 1;
+        color: white;
+    }
+
+    &__text{
+        display: block;
+        text-transform: capitalize;
+        font-weight: bold;
+        font-size: 3rem;
+        letter-spacing: .4px;
+    }
+
+    &__sub-text{
+        display: block;
+        font-size: 2rem;
+        text-transform: capitalize;
+    }
+
+    &__btn{
+        background-color: transparent;
+        margin: 15px 0;
+        color: white;
+        border: 1px solid white;
+        border-radius: 5px;
+        padding: 10px 15px;
+    }
+}
