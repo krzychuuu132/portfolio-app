@@ -1,12 +1,17 @@
 
 
 .header{
+    width: 100%;
     display: flex;
     padding: 0 20px;
     justify-content: space-between;
     align-items: center;
-    background-color: #525252;
+    background-color: #3a3939;
     height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 4;
 
     @media (min-width:1024px) {
         padding: 0px 100px;

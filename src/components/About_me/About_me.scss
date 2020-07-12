@@ -1,0 +1,103 @@
+
+.about-me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0;
+    margin: 0 15px;
+
+    @media (min-width:1024px) {
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+    }
+
+    &__picture{
+        width: 350px;
+        height: 400px;
+        background-color: black;
+        z-index: 1;
+        display: flex;
+        position: relative;
+        margin-bottom: 10px;
+
+        @media (min-width:1024px) {
+            margin-bottom: 0;   
+        }
+
+        &-border{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border: 10px solid  #FBD214;
+            transform: translate(0px,0px);
+            z-index: 4;
+            top: 0;
+            left: 0;
+            
+
+            @media (min-width:700px) {
+
+            transform: translate(-60px,-30px);
+            z-index: -4;
+
+            }
+
+            
+         
+        }
+
+        &-img{
+            width: 100%;
+            height: 100%;
+            display: block;
+            z-index: 3;
+        }
+
+
+    }
+
+    &__content{
+        width: 100%;
+        max-width: 650px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        min-height: 400px;
+        padding: 15px 30px;
+
+        &-title{
+            
+            text-align: center;
+            font-size: 1.8rem;
+            text-transform: uppercase;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &::before{
+                content: "";
+                width: 30px;
+                height: 3px;
+                background-color:  #FBD214;
+                z-index: 2;
+                margin-right: 15px;
+            }
+        }
+
+        &-text{
+            margin: 20px 0;
+            font-weight: bold;
+            font-size: 1rem;
+        }
+
+        &-sub_text{
+            margin-top: 10px;
+            color: rgb(175, 174, 174);
+            font-size: 0.9rem;
+        }
+    }
+}

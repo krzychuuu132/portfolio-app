@@ -5,6 +5,7 @@
     background-color: #020302;
     position: relative;
     overflow: hidden;
+    margin-top: 60px;
     
 
     &__video{
@@ -26,23 +27,42 @@
     &__text{
         display: block;
         text-transform: capitalize;
-        font-weight: bold;
-        font-size: 3rem;
+       
+        font-size: 1.2rem;
         letter-spacing: .4px;
+        margin-top: 25px;
     }
 
-    &__sub-text{
-        display: block;
-        font-size: 2rem;
-        text-transform: capitalize;
+    &__title{
+        font-size: 3rem;
+        font-weight: bold;
+        line-height: 4rem;
+
+        &-important{
+            color: #FBD214;
+            display: block;
+        }
     }
+
+    
 
     &__btn{
         background-color: transparent;
-        margin: 15px 0;
+        margin: 25px 0;
         color: white;
-        border: 1px solid white;
-        border-radius: 5px;
-        padding: 10px 15px;
+        border: none;
+        background-color: #FBD214;
+        padding: 15px 20px;
+        font-size: 0.9rem;
+        cursor: pointer;
+        transition: all .3s ease-in-out;
+        letter-spacing: .3px;
+        font-weight: bold;
+        border: 1px solid transparent;
+
+        &:hover{
+            background-color: transparent;
+            border-color: #FBD214;
+        }
     }
 }

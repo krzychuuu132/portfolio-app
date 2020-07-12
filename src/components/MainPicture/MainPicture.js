@@ -45,8 +45,8 @@ const MainPicture = () => {
             </video>
 
             <div className="article__content">
-                    <span className="article__text" ref={textRef}>Potrzebujesz developera,który spełni twoje oczekiwania ?</span>
-                    <span className="article__sub-text" ref={subTextRef}>Nie przepuść takiej okazji !</span>
+                    <h1 className="article__title" ref={textRef}>Jestem Niezależnym <span className="article__title-important">Front End Developerem</span></h1>
+                    <span className="article__text" ref={subTextRef}>Potrzebujesz Developera,Który Spełni Twoje Oczekiwania ? Przychodzę z pomocą !</span>
                     <button className="article__btn" ref={btnRef}>Dowiedz się więcej</button>
             </div>
         
