@@ -1,3 +1,4 @@
+@import '../styles/mixins';
 
 .about-me{
     display: flex;
@@ -69,23 +70,8 @@
         padding: 15px 30px;
 
         &-title{
+            @include title-style();
             
-            text-align: center;
-            font-size: 1.8rem;
-            text-transform: uppercase;
-            font-weight: bold;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            &::before{
-                content: "";
-                width: 30px;
-                height: 3px;
-                background-color:  #FBD214;
-                z-index: 2;
-                margin-right: 15px;
-            }
         }
 
         &-text{

@@ -1,10 +1,27 @@
-import React from 'react';
+import React,{useEffect,useRef} from 'react';
 
 import Navigation from "../Navigation/Navigation";
 import Logo from '../Logo/Logo';
 import './Header.scss';
 
 const Header = () => {
+
+    const headerRef = useRef(null);
+
+  const handleScroll = () =>{
+
+    if(window.scrollY>0){
+        headerRef.current.style.backgroundColor = '#3a3939';
+    }
+    else{
+        headerRef.current.style.backgroundColor = 'transparent';
+    }
+
+    }
+
+    useEffect(()=>{
+        window.addEventListener('scroll',handleScroll)
+    },[])
 
     const navigationList = [
 
@@ -18,7 +35,7 @@ const Header = () => {
 
     return ( 
 
-        <header className="header">
+        <header className="header" ref={headerRef}>
                 <Logo />
                 <Navigation navigationList={navigationList} ></Navigation>
         </header>

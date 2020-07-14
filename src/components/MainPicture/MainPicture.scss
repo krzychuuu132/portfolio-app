@@ -5,7 +5,14 @@
     background-color: #020302;
     position: relative;
     overflow: hidden;
-    margin-top: 60px;
+   // margin-top: 60px;
+   //background-image: url('../img/programming_small.jpg');  
+   background-image: url('../img/programming.jpg'); 
+   background-size: cover;
+
+   @media (min-wdith:700px) {
+       
+   }
     
 
     &__video{

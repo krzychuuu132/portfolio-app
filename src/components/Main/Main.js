@@ -14,10 +14,10 @@ const Main = () => {
     useEffect(()=>{
 
         const sections = document.querySelectorAll('.section');
-        
+        console.log(sections)
 
         const options = {
-            threshold:0.7
+            threshold:1
         }
 
         let observer = new IntersectionObserver(checkNavigation, options);
@@ -33,7 +33,7 @@ const Main = () => {
 
     const checkNavigation = (entries) =>{
         const active_element = document.querySelector('.navigation__active-element');
-
+        console.log(entries)
             entries.forEach(entry=> {
                 const className = entry.target.dataset.name;
                 const activeLink = document.querySelector(`[data-page=${className}]`);

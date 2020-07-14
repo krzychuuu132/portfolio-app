@@ -20,7 +20,7 @@ const Navigation = ({navigationList}) => {
         const section = sections[id]
 
         const sectionInfo = section.getBoundingClientRect().top;
-        console.log(sectionInfo)
+       
         window.scrollTo(0,section.offsetTop-100)
     }
 
@@ -46,6 +46,7 @@ const Navigation = ({navigationList}) => {
                             
 
                 </ul>
+                
                 
         </nav>
         <div className="navigation__active-element"></div>

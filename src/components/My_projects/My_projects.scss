@@ -1,0 +1,155 @@
+@import '../styles/mixins';
+
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 5px;
+
+    &__title{
+        @include title-style();
+        margin: 25px 0;
+    }
+
+    &__wrapper{
+        width: 100%;
+        max-width: 1400px;
+        min-height: 600px;
+      
+        display: flex;
+        justify-content: space-between;
+        
+        flex-wrap: wrap;
+    }
+}
+
+
+.project {
+    min-width: 300px;
+    max-width: 350px;
+    min-height: 300px;
+    border: 1px solid  #e2e1dd;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    padding-bottom: 10px;
+    margin: 20px auto;
+
+    @media (min-width:857px) {
+        margin: 30px 20px;
+    }
+  
+
+ 
+  
+
+    &__picture{
+        transition: all .4s;
+        will-change: transform;
+
+        &-img{
+            display: block;
+            width: 100%;
+            height: 200px;
+            filter: brightness(0.92);
+            transition: all .4s;
+        }
+    }
+
+    &:hover > &__picture{
+        transform: scale(1.1);
+    }
+
+
+
+    &__content{
+        text-align: center;
+        padding: 20px 5px;
+
+        &-title{
+            margin: 25px 0;
+            text-transform: uppercase;
+          
+        }
+
+        &-text{
+            line-height: 1.6rem;
+        }
+    }
+
+    &__technologies{
+        position: absolute;
+        left: 0;
+        top:0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.616);
+       
+        transition: all .4s ease-in-out;
+
+        @media (min-width:1024px) {
+            transform: translateY(-100%);
+        }
+    }
+
+    &:hover  &__technologies{
+        transform: translateY(0);
+    }
+}
+
+
+
+.project__sources {
+display: flex;
+justify-content: space-around;
+padding: 0 15px;
+font-weight: bold;
+margin-top: 15px;
+
+&-source{
+    border-radius: 5px;
+    background-color: #FBD214;
+    padding: 10px 20px;
+    will-change: color,border-color,background-color;
+    text-decoration: none;
+
+    &:nth-of-type(1){
+         color: white;
+         transition: all .4s;
+         border: 1px solid transparent;
+
+         &:hover{
+            background-color: transparent;
+            border-color: lightgray;
+            color: black;
+         }
+    }
+
+    &:nth-of-type(2){
+        background-color: transparent;
+        border: 1px solid lightgray;
+
+        &:hover{
+            border-color: transparent;
+            background-color: #FBD214;
+            color: white;
+        }
+    }
+}
+
+}
+
+
+.project__technologies{
+    display: flex;
+    
+    padding: 20px 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 0.8rem;
+}
