@@ -1,27 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.b896d0dd.chunk.css",
-    "main.js": "/static/js/main.4d4b5a9b.chunk.js",
-    "main.js.map": "/static/js/main.4d4b5a9b.chunk.js.map",
+    "main.css": "/static/css/main.96d19f6c.chunk.css",
+    "main.js": "/static/js/main.242cae4c.chunk.js",
+    "main.js.map": "/static/js/main.242cae4c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c3e8af0c.js",
     "runtime-main.js.map": "/static/js/runtime-main.c3e8af0c.js.map",
-    "static/js/2.fc64c861.chunk.js": "/static/js/2.fc64c861.chunk.js",
-    "static/js/2.fc64c861.chunk.js.map": "/static/js/2.fc64c861.chunk.js.map",
+    "static/js/2.90f64370.chunk.js": "/static/js/2.90f64370.chunk.js",
+    "static/js/2.90f64370.chunk.js.map": "/static/js/2.90f64370.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0f7867ddddf5c94ce4d1613f7d5f9835.js": "/precache-manifest.0f7867ddddf5c94ce4d1613f7d5f9835.js",
+    "precache-manifest.cb12ec2efde8d08d4a8fe510eef04da8.js": "/precache-manifest.cb12ec2efde8d08d4a8fe510eef04da8.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.b896d0dd.chunk.css.map": "/static/css/main.b896d0dd.chunk.css.map",
-    "static/js/2.fc64c861.chunk.js.LICENSE.txt": "/static/js/2.fc64c861.chunk.js.LICENSE.txt",
+    "static/css/main.96d19f6c.chunk.css.map": "/static/css/main.96d19f6c.chunk.css.map",
+    "static/js/2.90f64370.chunk.js.LICENSE.txt": "/static/js/2.90f64370.chunk.js.LICENSE.txt",
+    "static/media/My_abilities.scss": "/static/media/abilities.8d04c81e.jpg",
     "static/media/about-me_picture.jpg": "/static/media/about-me_picture.3ccbdfc0.jpg",
-    "static/media/coding.mp4": "/static/media/coding.b88f2ce6.mp4",
-    "static/media/coding_medium.mp4": "/static/media/coding_medium.4da28364.mp4",
-    "static/media/coding_small.mp4": "/static/media/coding_small.ad3c9989.mp4",
-    "static/media/coding_smallest.mp4": "/static/media/coding_smallest.1e57dae4.mp4"
+    "static/media/chat-app_small.png": "/static/media/chat-app_small.50706432.png",
+    "static/media/cv-creator_small.png": "/static/media/cv-creator_small.f97f3798.png",
+    "static/media/MainPicture.scss": "/static/media/programming.8d57f4c2.jpg",
+    "static/media/quiz-app_small.png": "/static/media/quiz-app_small.56b0d818.png",
+    "static/media/shop-bootstrap_small.png": "/static/media/shop-bootstrap_small.0e33a15e.png",
+    "static/media/shop_app_small.png": "/static/media/shop_app_small.96b51566.png",
+    "static/media/weather-app_small.png": "/static/media/weather-app_small.62ee4a0a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c3e8af0c.js",
-    "static/js/2.fc64c861.chunk.js",
-    "static/css/main.b896d0dd.chunk.css",
-    "static/js/main.4d4b5a9b.chunk.js"
+    "static/js/2.90f64370.chunk.js",
+    "static/css/main.96d19f6c.chunk.css",
+    "static/js/main.242cae4c.chunk.js"
   ]
 }
