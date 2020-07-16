@@ -1,0 +1,59 @@
+@import '../styles/mixins';
+
+.contact{
+    background-color: slategray;
+    min-height: 450px !important;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    &__title{
+        @include title-style();
+        margin: 25px 0;
+        color: white;
+        font-weight: normal;
+        text-align: left;
+        
+    }
+
+    &__wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        letter-spacing: .4px;
+    }
+
+    &__text{
+        margin: 15px 0;
+        text-align: center;
+    }
+
+    &__adres{
+        font-weight: bold;
+        color: rgb(243, 119, 119);
+    }
+
+    &__btn{
+        padding: 12px 20px;
+        border: 2px solid #FBD214;
+        border-radius: 5px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin: 15px 0;
+        cursor: pointer;
+        letter-spacing: .4px;
+        transition: all .4s;
+
+        &:hover{
+            background-color: #FBD214;
+            color: rgb(92, 89, 89);
+            
+        }
+    }
+}

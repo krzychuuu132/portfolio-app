@@ -32,14 +32,7 @@
             background-color: transparent;
             z-index: 2;
 
-            &::after{
-                position: absolute;
-                margin-left: 60px;
-                content: '';
-                width: 2px;
-                height: 100%;
-                background-color: #FBD214;
-            }
+           
 
             @media (min-width:1024px) {
                 z-index: -2;

@@ -1,4 +1,5 @@
 import React,{ useEffect } from 'react';
+import gsap from 'gsap'; 
 
 import About_me from '../About_me/About_me';
 import My_projects from '../My_projects/My_projects';
@@ -33,8 +34,16 @@ const Main = () => {
 
     const checkNavigation = (entries) =>{
         const active_element = document.querySelector('.navigation__active-element');
-        console.log(entries)
+        
             entries.forEach(entry=> {
+                
+                if(entry.target.dataset.name === 'technologies'){
+                    const section = entry.target;
+                    const sectionChildren = section.childNodes[1].children;
+                    
+                    gsap.fromTo(sectionChildren,{opacity:0,scale:0.3},{opacity:1,scale:1,stagger:.2})
+                }
+
                 const className = entry.target.dataset.name;
                 const activeLink = document.querySelector(`[data-page=${className}]`);
                

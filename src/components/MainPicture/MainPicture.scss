@@ -9,25 +9,17 @@
    //background-image: url('../img/programming_small.jpg');  
    background-image: url('../img/programming.jpg'); 
    background-size: cover;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   padding: 0 15px;
 
-   @media (min-wdith:700px) {
-       
+   @media (min-width:1024px) {
+    padding: 0 85px;
    }
-    
-
-    &__video{
-       // display: block;
-        
-        height: 100%;
-       // margin: 0 auto;
-        filter: brightness(0.3);
-    }
 
     &__content{
-        position: absolute;
-        top: 43%;
-        left: 7%;
-        z-index: 1;
+       
         color: white;
     }
 

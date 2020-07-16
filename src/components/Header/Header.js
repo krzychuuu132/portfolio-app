@@ -11,7 +11,7 @@ const Header = () => {
   const handleScroll = () =>{
 
     if(window.scrollY>0){
-        headerRef.current.style.backgroundColor = '#3a3939';
+        headerRef.current.style.backgroundColor = '#3a3939'
     }
     else{
         headerRef.current.style.backgroundColor = 'transparent';
