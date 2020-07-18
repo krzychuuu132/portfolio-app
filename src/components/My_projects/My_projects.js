@@ -9,16 +9,16 @@ import shop_bootstrap_picture from '../img/shop-bootstrap_small.png';
 import weather_app_picture from '../img/weather-app_small.png';
 import creator_app_picture from '../img/cv-creator_small.png';
 import chat_app_picture from '../img/chat-app_small.png';
+import portfolio_app_picture from '../img/portfolio-app_small.png';
 
 const My_projects = () => {
 
     const projects = [
 
         {
-            id:0,src:`${quiz_app_picture}`,title:'Strona portfolio',text:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue ipsum nec consequat facilisis. Nam mi nisl, dapibus at eros sit amet, ultrices dignissim metus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-            demo:'Podgląd',code:'GitHub',demo_link:'https://5f0ba46982c14304f883b7d6--portfolio-app-132.netlify.app/',demo_code:'https://github.com/krzychuuu132/portfolio-app',technologies:[
+            id:0,src:`${portfolio_app_picture}`,title:'Strona portfolio',text:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue ipsum nec consequat facilisis. Nam mi nisl, dapibus at eros sit amet, ultrices dignissim metus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+            demo:'Podgląd',code:'GitHub',demo_link:'https://5f0f99903992fc0007203f4c--portfolio-app-132.netlify.app/',demo_code:'https://github.com/krzychuuu132/portfolio-app',technologies:[
                 {title:'React.js',icon:''},
-                {title:'React Router',icon:''},
                 {title:'SASS',icon:''},
                 {title:'GSAP',icon:''},
                 {title:'BEM',icon:''},
@@ -63,7 +63,7 @@ const My_projects = () => {
                     },
                     {
                         id:4,src:`${weather_app_picture}`,title:'Aplikacja pogoda',text:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue ipsum nec consequat facilisis. Nam mi nisl, dapibus at eros sit amet, ultrices dignissim metus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-                        demo:'Podgląd',code:'GitHub',demo_link:'https://github.com/krzychuuu132/weather-app',demo_code:'https://krzychuuu132.github.io/weather-app/',technologies:[
+                        demo:'Podgląd',code:'GitHub',demo_link:'https://krzychuuu132.github.io/weather-app/',demo_code:'https://github.com/krzychuuu132/weather-app',technologies:[
                             {title:'React',icon:''},
                             {title:'Axios',icon:''},
                             {title:'GSAP',icon:''},
@@ -90,7 +90,7 @@ const My_projects = () => {
                         },
                             {
                                 id:6,src:`${chat_app_picture}`,title:'aplikacja chat',text:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue ipsum nec consequat facilisis. Nam mi nisl, dapibus at eros sit amet, ultrices dignissim metus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-                                demo:'Podgląd',code:'GitHub',demo_link:'https://github.com/krzychuuu132/chat-app',demo_code:'https://react-express-socket-app.netlify.app/',technologies:[
+                                demo:'Podgląd',code:'GitHub',demo_link:'https://react-express-socket-app.netlify.app/',demo_code:'https://github.com/krzychuuu132/chat-app',technologies:[
                                     {title:'React.js',icon:''},
                                     {title:'React-router',icon:''},
                                     {title:'Express.js',icon:''},
