@@ -26,8 +26,8 @@ const About_me = () => {
 
             <div className="about-me__content">
                 <h3 className="about-me__content-title">O mnie</h3>
-                <p className="about-me__content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim nibh sed metus aliquam egestas.</p>
-                <p className="about-me__content-sub_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim nibh sed metus aliquam egestas. Praesent lacus ex, euismod nec odio et, maximus sollicitudin metus. Phasellus non tellus nunc. Praesent a rhoncus orci. Integer porttitor vehicula odio,</p>
+                <p className="about-me__content-text">Potrzebujesz dobrze zooptymmalizowanej,responsywnej oraz wydajnej aplikacji ? </p>
+                <p className="about-me__content-sub_text">Jestem kreatywnym Developerem.Zajmuję się tworzeniem stron internetowych,aplikacji ,blogów oraz sklepów  w oparciu o nowoczesne technologie,z którymi pracuję na codzień.</p>
             </div>
 
         </section>

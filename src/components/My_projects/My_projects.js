@@ -16,7 +16,7 @@ const My_projects = () => {
     const projects = [
 
         {
-            id:0,src:`${portfolio_app_picture}`,title:'Strona portfolio',text:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue ipsum nec consequat facilisis. Nam mi nisl, dapibus at eros sit amet, ultrices dignissim metus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+            id:0,src:`${portfolio_app_picture}`,title:'Strona portfolio',text:'Strona przedstawiająca informacje o mnie oraz moje umiejętności',
             demo:'Podgląd',code:'GitHub',demo_link:'https://5f0f99903992fc0007203f4c--portfolio-app-132.netlify.app/',demo_code:'https://github.com/krzychuuu132/portfolio-app',technologies:[
                 {title:'React.js',icon:''},
                 {title:'SASS',icon:''},
@@ -26,7 +26,7 @@ const My_projects = () => {
             ]
             },
         {
-            id:1,src:`${shop_app_picture}`,title:'Aplikacja Sklep',text:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue ipsum nec consequat facilisis. Nam mi nisl, dapibus at eros sit amet, ultrices dignissim metus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+            id:1,src:`${shop_app_picture}`,title:'Aplikacja Sklep',text:'Projekt wirtualnego sklepu internetowego,który napisałem z myślą o wykorzystaniu przy tym wielu technologii webowych.',
             demo:'Podgląd',code:'GitHub',demo_link:'https://shop-app132.herokuapp.com',demo_code:'https://github.com/krzychuuu132/shop-app',technologies:[
                 {title:'React',icon:''},
                 {title:'React Router',icon:''},
@@ -42,7 +42,7 @@ const My_projects = () => {
             ]
             },
             {
-                id:2,src:`${quiz_app_picture}`,title:'Aplikacja Quiz',text:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue ipsum nec consequat facilisis. Nam mi nisl, dapibus at eros sit amet, ultrices dignissim metus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+                id:2,src:`${quiz_app_picture}`,title:'Aplikacja Quiz',text:'Aplikacja,której celem było przećwiczenie czystego języka JavaScript oraz komunikację z API.',
                 demo:'Podgląd',code:'GitHub',demo_link:'https://krzychuuu132.github.io/quiz-app/',demo_code:'https://github.com/krzychuuu132/quiz-app',technologies:[
                     {title:'Vanillia.js',icon:''},
                     {title:'SASS',icon:''},
@@ -53,7 +53,7 @@ const My_projects = () => {
                 ]
                 },
                 {
-                    id:3,src:`${shop_bootstrap_picture}`,title:'Szablon Sklepu - Bootstrap',text:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue ipsum nec consequat facilisis. Nam mi nisl, dapibus at eros sit amet, ultrices dignissim metus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+                    id:3,src:`${shop_bootstrap_picture}`,title:'Szablon Sklepu - Bootstrap',text:'Szablon sklepu internetowego,dzięki któremu nauczyłem się używać gotowych komponentów Bootstrapa za pomocą specyficznego nazewictwa klasowego',
                     demo:'Podgląd',code:'GitHub',demo_link:'https://krzychuuu132.github.io/shop-bootstrap/',demo_code:'https://github.com/krzychuuu132/shop-bootstrap',technologies:[
                         {title:'Bootstrap',icon:''},
                         {title:'SASS',icon:''},
@@ -62,7 +62,7 @@ const My_projects = () => {
                     ]
                     },
                     {
-                        id:4,src:`${weather_app_picture}`,title:'Aplikacja pogoda',text:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue ipsum nec consequat facilisis. Nam mi nisl, dapibus at eros sit amet, ultrices dignissim metus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+                        id:4,src:`${weather_app_picture}`,title:'Aplikacja pogoda',text:'Aplikacja pogodowa,w której do komunikacji z API użyłem modułu Axios,natomiast do animacji użyłem bilioteki GSAP ',
                         demo:'Podgląd',code:'GitHub',demo_link:'https://krzychuuu132.github.io/weather-app/',demo_code:'https://github.com/krzychuuu132/weather-app',technologies:[
                             {title:'React',icon:''},
                             {title:'Axios',icon:''},
@@ -73,7 +73,7 @@ const My_projects = () => {
                         ]
                     },
                     {
-                            id:5,src:`${creator_app_picture}`,title:'kreator cv',text:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue ipsum nec consequat facilisis. Nam mi nisl, dapibus at eros sit amet, ultrices dignissim metus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+                            id:5,src:`${creator_app_picture}`,title:'kreator cv',text:'Aplikacja kreator CV.Jest to bardziej zaawansowana aplikacja napisana w Gatsby.js,która nauczyła mnie bardzo dużo nowych rzeczy np: pisania styli za pomocą Styled components,komunikacji z Headless CMS(w tym przypadku Strapi),tworzenie wydajnych animacji z użyciem biblioteki GSAP oraz wiele wiele innych...',
                             demo:'Podgląd',code:'GitHub',demo_link:'https://strapi-gatsby-postgresql-app.netlify.app/',demo_code:'https://github.com/krzychuuu132/CV-creator',technologies:[
                                 {title:'Gatbsy.js',icon:''},
                                 {title:'React-router',icon:''},
@@ -89,7 +89,7 @@ const My_projects = () => {
                             ]
                         },
                             {
-                                id:6,src:`${chat_app_picture}`,title:'aplikacja chat',text:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue ipsum nec consequat facilisis. Nam mi nisl, dapibus at eros sit amet, ultrices dignissim metus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+                                id:6,src:`${chat_app_picture}`,title:'aplikacja chat',text:'Aplikacja chat,której celem było poznanie czegoś nowego ze świata backendu...W tym przypadku Socket.io,który z pomocą Express.js i Reacta jako frontu dał możliwość komunikacji użytkowników online',
                                 demo:'Podgląd',code:'GitHub',demo_link:'https://react-express-socket-app.netlify.app/',demo_code:'https://github.com/krzychuuu132/chat-app',technologies:[
                                     {title:'React.js',icon:''},
                                     {title:'React-router',icon:''},

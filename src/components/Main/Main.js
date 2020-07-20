@@ -15,10 +15,10 @@ const Main = () => {
     useEffect(()=>{
 
         const sections = document.querySelectorAll('.section');
-        console.log(sections)
+     
 
         const options = {
-            threshold:1
+            threshold:0.7
         }
 
         let observer = new IntersectionObserver(checkNavigation, options);
@@ -36,13 +36,36 @@ const Main = () => {
         const active_element = document.querySelector('.navigation__active-element');
         
             entries.forEach(entry=> {
+
+                const section_name = entry.target.dataset.name;
+                const section = entry.target;
+                const sectionChildren = section.childNodes[1].children;
                 
-                if(entry.target.dataset.name === 'technologies'){
-                    const section = entry.target;
-                    const sectionChildren = section.childNodes[1].children;
+
+                const tl = gsap.timeline()
+
+                if(section_name === 'technologies'){
+                    
+                    
                     
                     gsap.fromTo(sectionChildren,{opacity:0,scale:0.3},{opacity:1,scale:1,stagger:.2})
                 }
+
+                else if(section_name==='about-me'){
+
+                  
+
+                    tl.fromTo( section.childNodes[0],{opacity:0,y:-100,scale:0.4},{duration:.5,delay:.2,opacity:1,y:0,scale:1});
+                 
+                    tl.fromTo( sectionChildren,{opacity:0,x:100},{duration:.3,opacity:1,x:0,stagger:.4});
+                   
+                }
+
+                else if(section_name==='abilities'){
+                     tl.fromTo(sectionChildren,{y:100,scale:.7,opacity:0},{duration:.4,y:0,scale:1,opacity:1,stagger:.2})
+                }
+
+                
 
                 const className = entry.target.dataset.name;
                 const activeLink = document.querySelector(`[data-page=${className}]`);
