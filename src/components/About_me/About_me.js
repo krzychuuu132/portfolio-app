@@ -11,7 +11,7 @@ const About_me = () => {
     const handleChangePosition = (e) =>{
         const x = e.clientX/12;
         const y = e.clientY/16;
-        console.log(borderRef.current.style.transform)
+       
         borderRef.current.style.transform = `translate(-${x}px,-${y}px)`
     }
 

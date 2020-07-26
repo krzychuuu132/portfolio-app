@@ -1,10 +1,35 @@
 
 
 .main{
-
+        overflow-x: hidden;
 }
 
 .section{
     min-height: 80vh;
     border-top: 1px solid #eeead9;
+}
+
+.arrow{
+    position: fixed;
+    bottom: 3%;
+    right: 5%;
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    border: none;
+    z-index: 1;
+    color: white;
+    opacity: 0;
+    transform: scale(0.5);
+    transition: all .4s;
+    will-change: opacity,transform;
+
+    &__icon{
+        font-size: 1.3rem;
+    }
+
+    &--active{
+        opacity: 1;
+        transform: scale(1);
+    }
 }
