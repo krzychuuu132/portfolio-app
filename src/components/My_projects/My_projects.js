@@ -10,6 +10,7 @@ import weather_app_picture from '../img/weather-app_small.png';
 import creator_app_picture from '../img/cv-creator_small.png';
 import chat_app_picture from '../img/chat-app_small.png';
 import portfolio_app_picture from '../img/portfolio-app_small.png';
+import graphQL_app_picture from '../img/graphQL-app_small.png';
 
 const My_projects = () => {
 
@@ -95,6 +96,18 @@ const My_projects = () => {
                                     {title:'React-router',icon:''},
                                     {title:'Express.js',icon:''},
                                     {title:'Socket.io',icon:''},
+                                    {title:'GSAP',icon:''},
+                                    {title:'BEM',icon:''},
+                                  
+                                   
+                                ]
+                            },
+                            {
+                                id:7,src:`${graphQL_app_picture}`,title:'aplikacja Get Pokemons',text:'Aute labore consectetur laboris magna ad laborum laborum velit aliqua. Culpa minim ex non ut tempor excepteur. Ut ea aliqua ut deserunt enim do officia veniam ut mollit. Sit veniam veniam incididunt nisi in excepteur laborum sint mollit sunt dolore amet.',
+                                demo:'Podgląd',code:'GitHub',demo_link:'https://5f29a60741c2a10007e902e3--laughing-borg-a18190.netlify.app/',demo_code:'https://github.com/krzychuuu132/react-graphql-app',technologies:[
+                                    {title:'React.js',icon:''},
+                                    {title:'React-router',icon:''},
+                                    {title:'GraphQL',icon:''},
                                     {title:'GSAP',icon:''},
                                     {title:'BEM',icon:''},
                                   
