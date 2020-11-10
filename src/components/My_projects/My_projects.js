@@ -13,6 +13,7 @@ import portfolio_app_picture from '../img/portfolio-app_small.png';
 import graphQL_app_picture from '../img/graphQL-app_small.png';
 import music_side_small from '../img/music-side_small.JPG';
 import new_portfolio_small from '../img/new-portfolio_small.JPG';
+import booking_side_small from '../img/booking-side_small.jpg';
 
 function My_projects() {
 
@@ -95,8 +96,8 @@ function My_projects() {
                 { title: 'SCSS', icon: '' },
             ]
         },
-   /*     {
-            id: 7, src: `${graphQL_app_picture}`, title: 'aplikacja Wypożyczalnia(w trakcie developmentu)', text: 'Aplikacja wypożyczalnia,której celem było opanowanie grapql w połączeniu z Reactem.Do przechowywania danych użyłem bazy MongoDB',
+       {
+            id: 7, src: `${booking_side_small}`, title: 'aplikacja Wypożyczalnia(w trakcie developmentu)', text: 'Aplikacja wypożyczalnia,której celem było opanowanie grapql w połączeniu z Reactem.Do przechowywania danych użyłem bazy MongoDB',
             demo: 'Podgląd', code: 'GitHub', demo_link: 'https://graphql-app.netlify.app', demo_code: 'https://github.com/krzychuuu132/graphql-app', technologies: [
                 { title: 'React.js', icon: '' },
                 { title: 'React-router', icon: '' },
@@ -109,7 +110,7 @@ function My_projects() {
                 { title: 'Material-ui', icon: '' },
             ]
             
-        },*/
+        },
         {
             id: 7, src: `${music_side_small}`, title: 'Zlecenie strony(nie skończone)', text: 'Zlecenie strony,której design przygotował grafik,do końca tego tygodnia będzie skończona(grafik jest w trakcie poprawek desingu na polecenie klienta).Do kontrolowania treści na stronie użyłem graphCMS',
             demo: 'Podgląd', code: 'GitHub', demo_link: 'https://muisc-team-side.netlify.app', demo_code: 'https://github.com/krzychuuu132/music-team-side', technologies: [
